@@ -1,0 +1,812 @@
+/* 
+font-family: 'Quicksand', sans-serif;
+font-family: 'Abel', sans-serif;
+*/
+
+body {
+    
+    margin: 0;
+    background-color: #242424;
+}
+
+
+h1, h2, h3 {
+    
+    font-family: 'Abel', sans-serif;
+    
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 1vh;
+}
+
+p {
+    
+    font-family: 'Abel', sans-serif;
+    
+}
+
+footer {
+    
+    padding: 20px;
+    background-color: #262626;
+    
+}
+
+footer p {
+    
+    font-weight: 100;
+    margin: 0;
+    text-align: center;
+    color: white;
+    
+}
+
+.subfooter_container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #434343;
+    padding: 0.5vw 2vw;
+    
+}
+
+.subfooter_container h2 {
+    
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    padding: 5px 0px;
+    
+}
+
+.bottom-nav {
+    
+    width: 20%;
+    
+}
+
+.footer-widget_container {
+    
+    width: 35%;
+    margin: 0vw 3vw;
+    
+}
+
+
+.bottom-nav ul li {
+    
+    padding: 5px 0px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 15px 5px;
+    list-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.bottom-nav ul li a {
+    
+    font-size: 0.9em;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid transparent;
+    
+}
+
+.bottom-nav ul li a:hover {
+    
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+.bottom-contact_container {
+    
+    margin: 0vw 4vw;
+    padding: 0vw 2vw;
+    color: white;
+    
+}
+
+.bottom-contact_container p {
+    
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0.5w;
+    
+}
+
+.bottom-contact_container .contact_name-input {
+    
+    padding: 0.3vw;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 0.5w;
+    width: 100%;
+}
+
+.bottom-contact_container .contact_message-input { 
+    
+    padding: 0.3vw;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100%;
+    height: 13vh;
+    
+}
+
+.bottom-contact_container .contact_submit-input {
+    
+    margin: 0.8vw 0vw;
+    background-color: rgba(240, 240, 240, 0);
+    border: 1px solid rgba(255, 255, 255, 0.52);
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 0.8em;
+    width: 40%;
+    height: 5vh;
+    transition: 0.2s all ease;
+
+    
+}
+
+.bottom-contact_container .contact_submit-input:hover {
+    
+    transition: 0.2s all ease;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgb(0, 0, 0);
+    
+    background-color: #ffffff;
+}
+
+.main_navbar {
+    
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 99vw;
+   
+}
+
+.main_logo {
+    
+    position: relative;
+    left: 20px;
+    top: 10px;
+    height: 40px;
+    width: 120px;
+    background-image: url(images/eminem_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.main_navbar ul {
+    
+    float: right;
+}
+
+.main_navbar ul li {
+    
+    font-family: 'Abel', sans-serif;
+    margin: 0px 20px;
+    display: inline-block;
+    color: #ffffff;
+    transition: 0.2s all ease;
+    border-bottom: 3px solid transparent;
+    
+}
+
+.main_navbar ul li:hover {
+    
+    color: #ff6200;
+    transition: 0.2s all ease;
+    border-bottom: 3px solid #ff6200;
+    
+}
+
+.main_navbar ul li a {
+    
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.main_navbar ul li a:visited {
+    
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.main_dblcontainer {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 99vw;
+    height: 100vh;
+    
+}
+
+.main_container {
+    padding: 0;
+    margin: 0;
+    width: 99vw;
+    height: 100vh;
+    
+}
+
+
+.con1 .main_col-half {
+    
+    padding: 15vh 0px;
+    width: 50vw;
+    height: 70vh;
+    background-color: rgba(49, 49, 49, 0);
+    
+}
+
+.con1 .main_col-half  h1 {
+    
+    margin: 1vw;
+    color : #242424;
+    font-family: sans-serif;
+    font-size: 9em;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.con1 .main_col-half  p {
+    
+    margin: 5vh;
+    color : #242424;
+    font-size: 2em;
+    
+}
+
+
+.con1 .main_col-half  input {
+    
+    color : #242424;
+    font-size: 0.8em;
+    border: 3px solid #242424;
+    position: relative;
+    padding: 1.5vw 3vw;
+    background-color: transparent;
+    transition: 0.2s all ease;
+    
+}
+
+.con1 .main_col-half  input:hover {
+    
+    color: #ffffff;
+    transition: 0.2s all ease;
+    border: 3px solid #242424;
+    background-color: #242424;
+    
+}
+
+.con2 h1 {
+    
+    font-size: 4em;
+    display: inline-block;
+    padding: 1vw 2vw;
+    margin: 0;
+    position: relative;
+    top: 1vh;
+    color: #242424;
+    background-color: rgba(0, 0, 0, 0.15);
+    
+}
+
+.con2 .port-button {
+    
+    display: block;
+    padding: 1vw 2vw;
+    font-size: 1.8em;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: rgba(34, 34, 34, 0.5);
+    transition: 0.2s all ease;
+    
+}
+
+.con2 .port-button:hover {
+    
+    transition: 0.2s all ease;
+    padding: 1vw 2.5vw;
+    border: 2px solid #242424;
+    color: #ffffff;
+    background-color: #242424;
+    
+}
+
+.con2  .album-image {
+    
+    display: inline-block;
+    margin: 7vw 2vw;
+    width: 20vw;
+    height: 40vh;
+    background-color: #0f0f0f;
+    
+    
+}
+
+
+
+.con3 h1 {
+    
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    margin: 3vw 0vw;
+    padding: 1vw 2vw;
+    text-align: center;
+    font-size: 6vw;
+    
+}
+
+.con3 p {
+    
+    padding: 1vw 2vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 50%;
+    font-size: 1vw;
+    
+}
+
+.con3 input {
+    
+    padding: 10px 20px;
+    font-size: 1.8em;
+    border: 1px solid black;
+    background-color: transparent;
+    
+}
+
+.con4 h1 {
+    
+    padding: 0.5vw 1vw;
+    display: inline-block;
+    font-size: 4em;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.14);
+    
+}
+
+.con4 p {
+    
+    color: white;
+    
+}
+
+.con4 h2, h3 {
+    
+    color: white;
+    
+}
+
+.featuredArtist {
+    
+     background-color: rgba(255, 255, 255, 0.14);
+    display: inline-block;
+    padding: 3vh 0.2vw;
+    margin: 5vw 2vw;
+    width: 20vw;
+    height: auto;
+    
+}
+
+.featuredArtist :nth-child(2) {
+    
+    font-size: 2em;
+    margin: 15px 0px;
+}
+
+.featuredArtist .artist-image {
+    
+    height: 25vh;
+    width: 15vw;
+    background-color: #bdfffb;
+    
+}
+
+
+/*Portfolio*/
+
+
+
+.album-container {
+    
+  overflow: hidden;    
+  display: inline-block;
+  position: relative;
+  margin: 0.5vw;
+  width: 24vw;
+  height: 34vh;
+  background-color: dimgrey;
+  border-radius: 5px;
+    
+}
+
+.album-image {
+
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/main-image2.jpg);
+  background-size: cover;
+    
+}
+
+.album-overlay {
+    
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(196, 65, 65, 0.9);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.album-container:hover .album-overlay {
+    
+  height: 100%;
+    
+}
+
+.album-text {
+    
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.port-fullcol {
+    
+    float: left;
+    height: 80vh;
+    width: 20vw;
+    background-color: #656565;
+    
+}
+
+.port-qrtcon {
+    
+    padding: 1vw;
+    float: left;
+    height: 76vh;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    background: linear-gradient(#c1bcbc,#5a5a5a);
+    
+}
+
+.port-qrtcol {
+    
+   border-radius: 5px;
+   padding: 0.5vw;
+   margin: 2vw 0.5vw;
+   height: 35%;
+   width: 30%;
+   border: 1px solid black;
+   transition: 0.3s all ease;
+
+}
+
+
+/* Portfolio - End */
+
+/* Blog */
+
+.blog-container {
+    
+    margin: 0vw 1vw;
+    overflow: auto;
+}
+
+.blog-container h1 {
+    
+    font-size: 4em;
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 30vw;
+    padding: 1vw 2vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.blog-container h2 {
+    
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    font-size: 2em;
+    position: relative;
+    
+}
+
+
+.instafeed-container {
+    
+    width: 90vw;
+    
+}
+
+.insta-content {
+    
+    display: inline-block;
+    width: 20%;
+    margin: 0vh 2vw;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.insta-content p {
+    
+    margin: 1vw;
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+
+.insta-image {
+    
+    height: 30vh;
+    background-color: aliceblue;
+}
+
+
+.news-container {
+    
+    float: left;
+    width: 55vw;
+    
+}
+
+.newsfeed-container {
+    
+    overflow: auto;
+    margin: 2vw 0vw;
+    padding: 0.5vw;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.blog-title {
+    
+    display: block;
+    font-size: 1.5em;
+    border-bottom: 1px solid white;
+}
+
+.blog-date {
+    
+    display: block;
+    font-size: 1.5em;
+}
+
+.news-image {
+    
+    float: left;
+    margin: 0.5vw 0.5vw;
+    height: 100%;
+    width: 150px;
+    background-color: beige;
+
+}
+
+.events-container {
+    
+    margin-left: 10vw;
+    float: left;
+    width: 28vw;
+    
+}
+
+.events-content {
+    
+    color: white;
+    display: block;
+    padding: 1vw;
+    margin: 2vw 0vw;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.events-content input {
+    
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 1em;
+    padding: 0.5vw 2vw;
+    transition: 0.3s all ease;
+    
+}
+
+.events-content input:hover {
+    
+    color: white;
+    background-color: #656565;
+    border: 1px solid #656565;
+    transition: 0.3s all ease;
+    padding: 0.5vw 2.5vw;
+    
+}
+
+.events-image {
+    
+    background-color: dimgray;
+    margin: 0 auto;
+    height: 20vh;
+    
+}
+
+
+/* About Page */
+
+.aboutcontent-container1  {
+    
+    color: #ffffff;
+    padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 3vw auto;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aboutcontent-container2  {
+    
+    color: #ffffff;
+    padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+    width: 50%;
+    margin: 3vw auto;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.aboutcontent-container1 p {
+    
+    width: 70%;
+    font-size: 1.2em;
+    margin: 0.5vw;
+}
+
+.aboutcontent-container2 p {
+    
+    width: 70%;
+    font-size: 1.2em;
+    margin: 0.5vw;
+}
+
+
+.about-image {
+    
+  
+    background-color: #4b4b4b;
+    width: 200px;
+    height: 200px;
+    
+}
+
+/* Contact Page */
+
+.contact-container {
+    width: 100vw;
+    height: 91.3vh;
+    background-image: url(images/main-image3.jpg);
+    background-size: cover;
+}
+
+.contactinfo-container {
+    
+    overflow: hidden;
+    display: flex;
+    flex-flow:row-reverse;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    width: 65vw;
+    height: 75vh;
+    background-color: aliceblue;
+    position: absolute;
+    left: 15%;
+    top: 12%;
+    
+}
+
+.contactinfo-container h1 {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.contact-map {
+    
+    background-color: #646464;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.contact_info {
+    
+    width: 41%;
+    height: 70%;
+    padding: 2vw;
+}
+
+.contact_info p {
+    
+    font-size: 1vw;
+    margin: 0.5w 0vw;
+    
+}
+
+.contact_info strong {
+    
+    font-size: 1.2em;
+    margin: 0.5vw 0vw;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    
+}
+
+.contact_info input {
+    
+    margin: 1vw 0vw;
+    width: 80%;
+    padding: 0.5vw;
+    font-size: 0.8em;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid #2f2f2f;
+    
+}
+
+.contact_info textarea {
+    
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid #2f2f2f;
+    
+}
+
+.contact_info .submit-button {
+    
+    width: 20%;
+    transition: 0.5s all ease;
+    
+}
+
+.contact_info .submit-button:hover{
+    
+    transition: 0.5s all ease;
+    width: 25%;
+    background-color: #262626;
+    border: 1px solid #262626;
+    color: white;
+    cursor:pointer;
+    
+}
+
+

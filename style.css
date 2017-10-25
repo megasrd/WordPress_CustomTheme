@@ -1,0 +1,61 @@
+
+
+/*
+Theme Name: Dark Slim Shady V2
+Author: Regan Duthie
+Description: Regan's Theme for WordPress Assignment
+Version: 1.0
+*/
+
+@import url('main.css');
+ 
+
+.testblog-ctnr {
+
+    background-color: rgba(241, 241, 241, 0.1);
+    width: 30vw;
+    height: 30vh;
+}
+
+.testblog-image {
+    
+    background-color: red;
+    
+}
+
+.testblog-stuff {
+    
+    background-color: aqua;
+    width: 30vw;
+    
+}
+
+
+.con1 {
+    
+    background-image: url(images/main-image5.jpg);
+    background-size: cover;
+    
+}
+
+.con2 {
+    
+    background-image: url(images/main-image4.jpg);
+    background-size: cover;
+}
+
+.con3 {
+    
+    background-image: url(images/main-image3.jpg);
+    background-size: contain;
+    
+}
+
+.con4 {
+    
+    background-image: url(images/main-image2.jpg);
+    background-size: contain;
+    height: 120vh;
+    
+}
+
